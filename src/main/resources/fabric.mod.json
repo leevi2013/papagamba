@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "bluegamba",
+  "version": "${version}",
+  "name": "Blue Gamba",
+  "description": "Eine blaue Erz-Slotmaschine als lokale Gamba-Demo fuer Minecraft.",
+  "authors": ["BlueGamba"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.bluegamba.BlueGambaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
